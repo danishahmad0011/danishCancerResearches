@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio & Projects</title>
+    <title>Danish Ahmad - Cancer Research & Bio-AI Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,11 +14,11 @@
         }
         header {
             text-align: center;
-            padding: 20px 0;
+            padding: 30px;
             background-color: #0073b1;
             color: white;
             border-radius: 8px;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
         }
         section {
             background: white;
@@ -32,27 +32,34 @@
             border-bottom: 2px solid #0073b1;
             padding-bottom: 8px;
         }
-        img, video {
-            max-width: 100%;
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        img {
+            width: 100%;
             height: auto;
             border-radius: 6px;
-            margin-top: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
         .pdf-container {
             width: 100%;
-            height: 500px;
+            height: 550px;
             border: 1px solid #ccc;
             border-radius: 6px;
             margin-top: 15px;
         }
         .btn-link {
             display: inline-block;
-            margin-top: 10px;
-            padding: 10px 15px;
+            margin-top: 12px;
+            padding: 10px 18px;
             background-color: #0073b1;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-weight: bold;
         }
         .btn-link:hover {
             background-color: #005582;
@@ -62,39 +69,37 @@
 <body>
 
     <header>
-        <h1>My Personal & Project Portfolio</h1>
-        <p>Medical Research & Data Science Projects</p>
+        <h1>Danish Ahmad</h1>
+        <p>Cancer Risk Intelligence, Bio-AI & Medical Research Portfolio</p>
     </header>
 
-    <!-- Quadriceps Myelitis Section -->
+    <!-- Quadriceps Myelitis & LinkedIn Snapshots Section -->
     <section>
-        <h2>1. Quadriceps Myelitis Summary & Demo</h2>
-        
-        <h3>LinkedIn Summary Snapshot</h3>
-        <img src="linkedin-summary.jpg" alt="Quadriceps Myelitis LinkedIn Summary">
-
-        <h3 style="margin-top: 25px;">Quadriceps Myelitis Growth Video</h3>
-        <video controls>
-            <source src="video.mp4" type="video/mp4">
-            Aapka browser video tag ko support nahi karta.
-        </video>
+        <h2>1. Research Snapshots & Case Studies</h2>
+        <div class="gallery">
+            <img src="IMG_20260430_161850.jpg" alt="Research Snapshot 1">
+            <img src="IMG_20260625_124047.jpg" alt="Research Snapshot 2">
+            <img src="SAVE_20180528_162242.jpeg" alt="Personal Profile / Summary Photo">
+            <img src="Screenshot_2026-04-30-16-17-29-95_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" alt="LinkedIn Summary Screenshot">
+            <img src="danish 1.jfif" alt="Danish Profile Photo">
+        </div>
     </section>
 
-    <!-- Google Colab Projects Section -->
+    <!-- Cancer Risk Prediction Projects (Google Colab PDFs) Section -->
     <section>
-        <h2>2. Cancer Risk Prediction Projects (Google Colab)</h2>
+        <h2>2. Cancer Risk Prediction Projects (Google Colab Exports)</h2>
         
-        <h3>Project 1: Cancer Risk Analysis</h3>
+        <h3>Project 1: DNA CRISPR Off-Target Mutation & Cancer Risk Engine</h3>
         <p>Google Colab Notebook Export PDF:</p>
-        <embed src="cancer-project-1.pdf" type="application/pdf" class="pdf-container" />
+        <iframe src="DNA_CRISPR_Off_Target_Mutation___Cancer_Risk_Engine_(JupyTools.com).pdf" class="pdf-container"></iframe>
         <br>
-        <a href="cancer-project-1.pdf" target="_blank" class="btn-link">Open / Download PDF 1</a>
+        <a href="DNA_CRISPR_Off_Target_Mutation___Cancer_Risk_Engine_(JupyTools.com).pdf" target="_blank" class="btn-link">📄 Open Project 1 PDF in New Tab</a>
 
-        <h3 style="margin-top: 30px;">Project 2: Advanced Cancer Risk Modeling</h3>
+        <h3 style="margin-top: 40px;">Project 2: DNA-Driven Multi-Omics Cancer Neoantigen Discovery & mRNA Vaccine Pipeline</h3>
         <p>Google Colab Notebook Export PDF:</p>
-        <embed src="cancer-project-2.pdf" type="application/pdf" class="pdf-container" />
+        <iframe src="DNA_DRIVEN_MULTI_OMICS_CANCER_NEOANTIGEN_DISCOVERY___mRNA_VACCINE_PIPELINEi(JupyTools.com).pdf" class="pdf-container"></iframe>
         <br>
-        <a href="cancer-project-2.pdf" target="_blank" class="btn-link">Open / Download PDF 2</a>
+        <a href="DNA_DRIVEN_MULTI_OMICS_CANCER_NEOANTIGEN_DISCOVERY___mRNA_VACCINE_PIPELINEi(JupyTools.com).pdf" target="_blank" class="btn-link">📄 Open Project 2 PDF in New Tab</a>
     </section>
 
 </body>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio & Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0073b1;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0073b1;
+            border-bottom: 2px solid #0073b1;
+            padding-bottom: 8px;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #0073b1;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-link:hover {
+            background-color: #005582;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal & Project Portfolio</h1>
+        <p>Medical Research & Data Science Projects</p>
+    </header>
+
+    <!-- Quadriceps Myelitis Section -->
+    <section>
+        <h2>1. Quadriceps Myelitis Summary & Demo</h2>
+        
+        <h3>LinkedIn Summary Snapshot</h3>
+        <img src="linkedin-summary.jpg" alt="Quadriceps Myelitis LinkedIn Summary">
+
+        <h3 style="margin-top: 25px;">Quadriceps Myelitis Growth Video</h3>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Aapka browser video tag ko support nahi karta.
+        </video>
+    </section>
+
+    <!-- Google Colab Projects Section -->
+    <section>
+        <h2>2. Cancer Risk Prediction Projects (Google Colab)</h2>
+        
+        <h3>Project 1: Cancer Risk Analysis</h3>
+        <p>Google Colab Notebook Export PDF:</p>
+        <embed src="cancer-project-1.pdf" type="application/pdf" class="pdf-container" />
+        <br>
+        <a href="cancer-project-1.pdf" target="_blank" class="btn-link">Open / Download PDF 1</a>
+
+        <h3 style="margin-top: 30px;">Project 2: Advanced Cancer Risk Modeling</h3>
+        <p>Google Colab Notebook Export PDF:</p>
+        <embed src="cancer-project-2.pdf" type="application/pdf" class="pdf-container" />
+        <br>
+        <a href="cancer-project-2.pdf" target="_blank" class="btn-link">Open / Download PDF 2</a>
+    </section>
+
+</body>
+</html>
